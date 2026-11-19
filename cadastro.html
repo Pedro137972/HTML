@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Criar conta – English Fun</title>
+</head>
+<body>
+<p><a href="index.html">← Menu</a></p>
+<h1>🦉 Criar conta</h1>
+<form action="index.html" method="get">
+<p><label>Seu nome: <input type="text" required minlength="3" maxlength="12" pattern="[A-Za-z0-9_À-ÿ]+" title="Use de 3 a 12 letras ou números, sem espaços." autocomplete="username"></label></p>
+<p><label>Senha: <input type="password" required minlength="4" autocomplete="new-password"></label></p>
+<fieldset><legend>Escolha seu amigo:</legend><label><input type="radio" name="av" required> 🦊</label> <label><input type="radio" name="av" required> 🐼</label> <label><input type="radio" name="av" required> 🐸</label> <label><input type="radio" name="av" required> 🦄</label> <label><input type="radio" name="av" required> 🐯</label> <label><input type="radio" name="av" required> 🐵</label></fieldset>
+<p><button type="submit">Criar minha conta</button></p>
+</form>
+<p><small>Aviso: em HTML puro o site não consegue guardar contas. Estas telas só conferem se os campos foram preenchidos certinho.</small></p>
+<p>Já tem conta? <a href="login.html">Entrar</a></p>
+</body>
+</html>

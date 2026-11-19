@@ -1,0 +1,3 @@
+VERSÃO 1 – SOMENTE HTML (sem CSS e sem JavaScript)
+Abra index.html. Respostas usam <details>, a validação usa required/pattern e o caça-palavras usa dicas.
+Limites: não há pontos, cores nem contas salvas.
